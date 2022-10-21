@@ -422,8 +422,8 @@ function drawLetter(letterToUse){
   var ctx = c.getContext("2d");
   // var c1 = ctx.fillStyle = `rgb(${document.getElementById('red1').value}, ${document.getElementById('green1').value}, ${document.getElementById('blue1').value})`;
   // var c2 = ctx.fillStyle = `rgb(${document.getElementById('red2').value}, ${document.getElementById('green2').value}, ${document.getElementById('blue2').value})`;
-  var c1 = ctx.fillStyle = document.getElementById('c1').value;
-  var c2 = ctx.fillStyle = document.getElementById('c2').value;
+  var c1  = document.getElementById('c1').value;
+  var c2  = document.getElementById('c2').value;
   for (let i = 0; i < 14; i++) {
     for (let j = 0; j < 15; j++) {
       if(letter != ' '){
